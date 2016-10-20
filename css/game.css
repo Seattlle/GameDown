@@ -1,0 +1,273 @@
+.clearfloat:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    max-width: 1536px;
+    margin: 0 auto;
+    position: relative;
+}
+
+[data-dpr="1"] body {
+    max-width: 768px;
+}
+
+.userInfo .banner {
+    max-width: 1536px;
+    margin: 0 auto;
+    height: auto;
+    padding: 0.3rem 0.40625rem;
+    box-sizing: border-box;
+    position: fixed;
+    top: -1px;
+    width: 100%;
+    box-shadow: none;
+    z-index: 5;
+    background-color: #f9f9f9;
+}
+
+[data-dpr="1"] .userInfo .banner {
+    max-width: 768px;
+}
+
+.userInfo .banner img {
+    width: 2.65625rem;
+    height: 2.65625rem;
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    padding-right: 0.3rem;
+}
+
+.userInfo .banner .user {
+    margin: 0;
+}
+
+.userInfo .banner .user span {
+    color: #565656;
+    font-size: 0.34375rem;
+    line-height: 1.7;
+    display: block;
+}
+
+[data-dpr="3"] .userInfo .banner .user span {
+    font-size: 44px;
+}
+.userInfo .banner .user span em {
+    color: #000000;
+    font-style: normal;
+}
+.userInfo .banner .user span em {
+    font-size: 0.46875rem;
+    font-style: normal;
+}
+
+[data-dpr="3"] .userInfo .banner .user span em {
+    font-size: 60px;
+
+}
+.userInfo .banner .user span i {
+    display: inline-block;
+    background: url(../img/star.png) center no-repeat;
+    background-size: 100%;
+    margin-right: 3px;
+}
+.userInfo .banner .user span i {
+    width: 0.421875rem;
+    height: 0.390625rem;
+    vertical-align: middle;
+    margin-right: 0.09375rem;
+    background-image: url(../img/start.png);
+}
+
+.userInfo .banner .user span i.half {
+    background-image: url(../img/start_1.png);
+}
+
+.userInfo .banner .user span i.nosart {
+    background-image: url(../img/start_2.png);
+}
+
+.downLoad {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    background: url(../img/mm_03-09.png) center no-repeat;
+    background-size: 100% auto;
+}
+.downLoad {
+    width: 3.4375rem;
+    height: 1.1rem;
+}
+
+.downLoad:active {
+    background-image: url(../img/mm_03-10.png);
+}
+
+#downLoad {
+    right: 0.40625rem;
+    top: 1.18rem;
+}
+
+#downLoad1 {
+    position: initial;
+    margin-top: 0.2rem;
+}
+
+.service {
+    margin-top: 0.2rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-box-align: center;
+    -moz-box-align: justify;
+    -ms-flex-align: center;
+    justify-content: space-between;
+    align-content: center;
+    /*visibility: hidden;*/
+}
+
+.service .s_service {
+    height: 0.328125rem;
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 100%;
+}
+
+.service .s_service.noad {
+    background-image: url(../img/service_01.png);
+}
+
+.service .s_service.novie {
+    background-image: url(../img/service_02.png);
+}
+
+.service .s_service.safe {
+    background-image: url(../img/service_03.png);
+}
+
+.service .s_service.normal {
+    background-image: url(../img/service_04.png);
+}
+
+.gameDownLoad .container {
+    width: 100%;
+    box-shadow: none;
+    margin: 0;
+    padding-top: 3.4rem;
+}
+
+.gameimg {
+    overflow: hidden;
+    position: relative;
+    height: 11.25rem;
+}
+
+.gameimg ul {
+    width: 1000%;
+    position: absolute;
+    top: 0;
+    left: -25.234375rem;
+}
+.gameimg ul li {
+    width: 19%;
+    padding-right: 1%;
+    float: left;
+}
+.gameimg ul li {
+    width: 6.34375rem;
+    padding-right: 0.375rem;
+}
+
+.gameimg ul li:last-child {
+    padding-right: 0;
+}
+.gameimg ul li img {
+    width: 100%;
+}
+.screenshot {
+    padding: 0.15625rem;
+    background-color: #ececec;
+    box-shadow: 0 0px 20px rgba(0, 0, 0, .3) inset;
+}
+
+.gameDescribe {
+    padding: 0.375rem 0.3rem;
+    text-align: center;
+}
+.gameDownLoad .gameDescribe>span {
+    color: #6CBC59;
+    border-left: 3px solid #6cbc59;
+    padding-left: 10px;
+    display: block;
+    margin: 6px 0;
+    font-size: 13px;
+}
+.gameDownLoad .gameDescribe > span {
+    color: #1e1e1e;
+    font-size: 0.375rem;
+    border-color: #0073f2;
+    border-width: 4px;
+    text-align: left;
+    padding-left: 0.15625rem;
+}
+
+.comment {
+    text-align: left;
+    margin: 0.234375rem 0;
+    border-top: 1px solid #7b7b7b;
+}
+
+.comment_item {
+    padding: 12px;
+    line-height: 1.8;
+    border-bottom: 1px solid #7b7b7b;
+}
+
+.comment_item .comment_name {
+    font-size: 0.3125rem;
+    display: inline-block;
+    color: #7b7b7b;
+    width: 100%;
+}
+
+.comment_item .time {
+    float: right;
+    text-align: right;
+}
+
+.gameDownLoad .gameDescribe p {
+    color: #000000;
+    font-size: 0.34375rem;
+    display: inline-block;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
